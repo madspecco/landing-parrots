@@ -1,3 +1,26 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0295a9;
+}
+
+.leftContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.leftContainerObjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 16px;
+    margin-left: 16px;
+}
+
 .rightContainer {
     display: flex;
     justify-content: flex-end;
@@ -14,11 +37,22 @@
     margin-right: 16px;
 }
 
-.about, .parrots, .contact {
+.about, .parrots, .contact, .logo {
     color: #fdd037;
     font-size: 24px;
 }
 
+.logoImage {
+    max-width: 48px;
+    max-height: 48px;
+    padding: 5px 5px;
+}
+
 a {
     text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
