@@ -1,0 +1,24 @@
+.rightContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rightContainerObjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    gap: 16px;
+    margin-right: 16px;
+}
+
+.about, .parrots, .contact {
+    color: #fdd037;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
