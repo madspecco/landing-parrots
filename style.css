@@ -9,6 +9,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 64px;
 }
 
 .leftContainerObjects {
@@ -25,6 +26,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 64px;
 }
 
 .rightContainerObjects {
@@ -40,12 +42,57 @@
 .about, .parrots, .contact, .logo {
     color: #fdd037;
     font-size: 24px;
+    font-family: "Hero Main", sans-serif;
 }
 
 .logoImage {
     max-width: 48px;
     max-height: 48px;
     padding: 5px 5px;
+}
+
+.title {
+    display: flex;
+    gap: 360px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    max-height: 300px;
+    margin-left: 64px;
+}
+
+.main-hero {
+    font-size: 48px;
+    color:#0295a9;
+}
+
+.secondary-hero {
+    font-size: 18px;
+    color:#12adc1;
+}
+
+.titleImage {
+    max-width: 700px;
+    max-height: 300px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+  
+button.title-button {
+    font-size: 18px;
+    background-color: #0295a9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
 }
 
 a {
