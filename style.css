@@ -9,7 +9,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 64px;
+    margin-left: 360px;
 }
 
 .leftContainerObjects {
@@ -26,7 +26,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 64px;
+    margin-right: 360px;
 }
 
 .rightContainerObjects {
@@ -53,9 +53,12 @@
 
 .title {
     display: flex;
-    gap: 360px;
     margin-top: 64px;
     margin-bottom: 64px;
+    margin-left: 360px;
+    margin-right: 360px;
+
+    gap: 38px;
 }
 
 .title-section {
@@ -63,7 +66,6 @@
     flex-direction: column;
     max-width: 700px;
     max-height: 300px;
-    margin-left: 64px;
 }
 
 .main-hero {
@@ -81,6 +83,21 @@
     max-height: 300px;
 }
 
+.info-hero {
+    text-align: center;
+}
+
+.info-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parrot-info {
+    max-width: 700px;
+    max-height: 300px;
+}
+
 button {
     padding: 8px 16px;
     border-radius: 8px;
@@ -92,7 +109,9 @@ button.title-button {
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 200px;
+    margin-top: 42px;
 }
 
 a {
