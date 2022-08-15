@@ -39,6 +39,12 @@
     margin-right: 16px;
 }
 
+.feather {
+    max-width: 42px;
+    max-height: 42px;
+
+}
+
 .about, .parrots, .contact, .logo {
     color: #fdd037;
     font-size: 24px;
@@ -92,11 +98,13 @@
 .information {
     margin-top: 360px;
     margin-bottom: 360px;
+    padding: 100px;
+    background-color:#0295a9;
 }
 
 .info-hero {
     text-align: center;
-    color:#0295a9;
+    color:#fdd037;
 }
 
 .info-section {
@@ -120,6 +128,7 @@
 .parrot-text {
     text-align: center;
     margin-top: 12px;
+    color:#fdd037;
 }
 
   
@@ -127,7 +136,7 @@ button.title-button {
     font-size: 24px;
 
     background-color: #0295a9;
-    color: #ffffff;
+    color: #fdd037;
 
     height: 50px;
     width: 200px;
@@ -208,4 +217,11 @@ button.call-button {
     border-radius: 8px;
 
     cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+    background-color: #0295a9;
 }
