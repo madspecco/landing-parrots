@@ -64,7 +64,7 @@
 .title {
     display: flex;
     margin-top: 64px;
-    margin-bottom: 64px;
+    margin-bottom: 425px;
     margin-left: 360px;
     margin-right: 360px;
 
@@ -158,6 +158,16 @@ button.title-button {
 
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    box-shadow: inset 0 0 0 0 #fdd037;
+    transition: ease-out 0.3s;
+    font-size: 24px;
+    outline: none;
+}
+
+button.title-button:hover {
+    box-shadow: inset 200px 0 0 0 #fdd037;
+    color: #0295a9;
 }
 
 a {
@@ -247,6 +257,16 @@ button.call-button {
     cursor: pointer;
     color: #fdd037;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    box-shadow: inset 0 0 0 0 #fdd037;
+    transition: ease-out 0.3s;
+    font-size: 24px;
+    outline: none;
+}
+
+button.call-button:hover {
+    box-shadow: inset 200px 0 0 0 #fdd037;
+    color: #0295a9;
 }
 
 .footer {
