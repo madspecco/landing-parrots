@@ -169,6 +169,11 @@ a.rick-roll {
     margin-top:auto;
 }
 
+a.github-footer {
+    color: #fdd037;
+    text-decoration: underline;
+}
+
 body {
     margin: 0;
     padding: 0;
