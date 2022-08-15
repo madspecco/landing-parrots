@@ -114,6 +114,7 @@
     width: 350px;
     border: 5px solid #12adc1;
     border-radius: 100px;
+    object-fit: cover;
 }
 
 .parrot-text {
@@ -149,4 +150,24 @@ a.rick-roll {
 body {
     margin: 0;
     padding: 0;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    margin: 360px;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+#quote-author {
+    font-size: 24px;
+    margin-left: 500px;
+    font-weight: bold;
 }
