@@ -5,6 +5,10 @@
     background-color: #0295a9;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .leftContainer {
     display: flex;
     justify-content: flex-start;
