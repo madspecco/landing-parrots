@@ -48,7 +48,7 @@
 .about, .parrots, .contact, .logo {
     color: #fdd037;
     font-size: 24px;
-    font-family: "Hero Main", sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .logoImage {
@@ -81,11 +81,13 @@
 .main-hero {
     font-size: 48px;
     color:#0295a9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .secondary-hero {
     font-size: 18px;
     color:#12adc1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .titleImage {
@@ -105,6 +107,8 @@
 .info-hero {
     text-align: center;
     color:#fdd037;
+
+    margin-bottom: 100px;
 }
 
 .info-section {
@@ -145,6 +149,7 @@ button.title-button {
     border-radius: 8px;
 
     cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
