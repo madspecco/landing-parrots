@@ -45,10 +45,18 @@
 
 }
 
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
 .about, .parrots, .contact, .logo {
     color: #fdd037;
     font-size: 24px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    position: relative
 }
 
 .logoImage {
@@ -171,7 +179,23 @@ button.title-button:hover {
 }
 
 a {
+    position: relative;
     text-decoration: none;
+}
+
+a.logo::after, a.about::after, a.parrots::after, a.contact::after {
+    content: "";
+    position: absolute;
+    background-color: #fdd037;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+a:hover::after {
+    width: 100%;
 }
 
 a.rick-roll {
